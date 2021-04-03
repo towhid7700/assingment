@@ -1,0 +1,541 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*Header section*/
+header{
+	width: 100%;
+	float: left;
+	background: #87509c;
+    padding: 25px 0px;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+    margin-top: -4px;
+    width: 110px;
+}
+.menu{
+	width: 70%;
+	float: left;
+   
+}
+nav ul{
+    list-style: none;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner{
+    padding-top: 140px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.banner h2{
+    color: #fff;
+    font-size: 33px;
+}
+.banner-btn{
+    background: #eb7d4b;
+    padding: 12px 23px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    box-shadow: 1px 2px 4px #eb7d4b;
+    margin-top: 20px;
+}
+
+
+/*service section*/
+.service{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background: #17c2a4;
+}
+.service-head{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.service-head h2{
+    font-size: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.service-head span{
+    border-bottom: 2px solid #161616;
+    display: block;
+    width: 20%;
+    margin: 10px auto;
+}
+.service-head p{
+    font-size: 17px;
+}
+.service-banner{
+    width: 100%;
+    float: left;
+    padding: 34px 0px;
+
+}
+.service-banner h3{
+    color: #fff;
+    font-weight: bold;
+}
+.service-banner p{
+    color: #fff;
+    padding: 10px 0px;
+}
+.service-banner-one{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 0px 25px;
+    
+}
+.service-banner-two{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 0px 25px;
+    
+}
+.service-banner-three{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 0px 25px;
+    
+}
+.service-banner-four{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 0px 25px;
+}
+
+
+/*team section*/
+.team{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background: #d3d3d3;
+}
+.team-title{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.team-title h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.team-title span{
+    border-bottom: 2px solid #161616;
+    display: block;
+    width: 25%;
+    margin: 10px auto;
+}
+.team-detail{
+    width: 100%;
+    float: left;
+    padding: 30px 0px;
+}
+.team-detail img{
+    width: 75%;
+}
+.team-detail h4{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.team-detail h5{
+    color: blue;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.team-detail p{
+    padding-bottom: 8px;
+}
+.team-detail ul{
+    list-style: none;
+}
+.team-detail ul li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.team-detail ul li a{
+    background: #9E9E9E;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 30px;
+}
+.team-detail-one{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 0px 27px;
+    
+}
+.team-detail-two{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 0px 27px;
+}
+.team-detail-three{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 0px 27px;
+}
+.team-detail-four{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 0px 27px;
+}
+
+
+/*skill section*/
+.skill{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background: #fff;
+
+}
+.skill-title{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.skill-title h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.skill-title span{
+    border-bottom: 2px solid #161616;
+    display: block;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.skill-detail{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+
+}
+.skill-detail img{
+     width: 65%;
+}
+.skill-detail h4{
+    font-size: 20px;
+    margin-top: 7px;
+}
+.skill-detail-one{
+    width: 20%;
+    float: left;
+    padding: 0px 27px;
+    text-align: center;
+}
+.skill-detail-two{
+    width: 20%;
+    float: left;
+    padding: 0px 27px;
+    text-align: center;
+}
+.skill-detail-three{
+    width: 20%;
+    float: left;
+    padding: 0px 27px;
+    text-align: center;
+}
+.skill-detail-four{
+    width: 20%;
+    float: left;
+    padding: 0px 27px;
+    text-align: center;
+}
+
+/*portfolio section*/
+.portfolio{
+    width: 100%;
+    float: left;
+    background: #FFDD99;
+    padding: 50px 0px;
+}
+
+.portfolio-head{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.portfolio-head h2{
+    text-transform: capitalize;
+    
+}
+
+.portfolio-head span{
+    border-bottom: 2px solid black;
+    display: block;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.portfolio-head p{
+    
+}
+
+.portfolio-head ul{
+    list-style: none;
+    padding-top: 15px;
+}
+
+.portfolio-head ul li{
+    display: inline-block;
+    /* border: 3px solid gray; */
+    background: #80808094;
+    padding: 5px 7px;
+    margin-right: 15px;
+    color: white;
+}
+.portfolio-head ul li a{
+    text-decoration: none;
+}
+
+.portfolio-img{
+    width: 100%;
+    float: left;
+    padding: 25px 49px;
+}
+
+.portfolio-img-two{
+    width: 100%;
+    float: left;
+    padding: 5px 49px;
+}
+
+.portfolio-img img{
+    width: 503px;
+    /* margin-left: 31px; */
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio-img-two img{
+    width: 503px;
+    /* margin-left: 31px; */
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio-img p{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.portfolio-img-two p{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.portfolio-img-1{
+    width: 40%;
+    float: left;
+}
+
+.portfolio-img-two-2{
+    width: 40%;
+    float: left;
+}
+.portfolio-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 22px;
+    font-size: 20px;
+    color: #fff;
+    background: #30D0C1;
+    border: none;
+    box-shadow: 0px 4px #119589;
+    margin-top: 10px;
+}
+
+/*about section*/
+.about{
+    width: 100%;
+    float: left;
+    background: #D74680;
+    padding: 35px 0px;
+}
+
+.about-head{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about-head h2{
+    text-transform: uppercase;
+    color: white;
+}
+
+.about-head span{
+    border-bottom: 2px solid black;
+    display: block;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.about-head p{
+    color: white;
+}
+
+.about-item{
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+}
+
+.about-item img{
+    width: 27%;
+    float: left;
+}
+
+.about-text{
+    width: 62%;
+    float: left;
+    padding: 28px 21px;
+    
+}
+
+.about-text p{
+    padding-bottom: 20px;
+    color: white;
+    
+}
+
+.about-text h2{
+    color: white;
+    text-transform: uppercase;
+}
+
+.about-text h5{
+    color: yellow;
+}
+
+
+/*contact section*/
+.contact{
+    width: 100%;
+    float: left;
+    background: #3C5499;
+    padding: 75px 0px;
+}
+
+
+.contact-head{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -25px;
+}
+
+.contact-head h2{
+    text-transform: uppercase;
+}
+
+.contact-head span{
+    border-bottom: 2px solid black;
+    display: block;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.contact-head p{
+    text-transform: capitalize;
+}
+
+.contact-form{
+    width: 50%;
+    margin: 30px auto;
+    margin-bottom: 40px;
+}
+
+.form-control{
+    width: 45%;
+    margin-right: 5px;
+    padding: 8px 5px;
+    /* border-radius: 5px; */
+    background: #0000006b;
+    border: none;
+}
+
+textarea {
+    width: 95%;
+    margin-top: 10px;
+    background: #0000006b;
+    border: none;
+}
+.contact a{
+    margin-left: 460px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #30d0c1;
+    padding: 18px 21px;
+    box-shadow: 0px 3px 0px #009688;
+}
+.contact a:hover{
+    cursor: pointer;
+    background-color: #30d0c1;
+    box-shadow: 0px 3px 0px #009688;
+}
+
+/*footer section*/
+footer{
+    width: 100%;
+    float: left;
+    background:#2a4594;
+    padding: 35px 0px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 75px;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
